@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../assets/fonts/dosis/static/Dosis-Bold.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6 {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.page-section-heading {
+    font-size: 2.75rem;
+    font-weight: 300;
+    line-height: 3.75rem;
+    letter-spacing: -0.00833em;
+    /*margin-top: 120px;*/
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-section {
+    padding: 6rem 1rem;
+}
+
+.gradient-a {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.gradient-b {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.gradient-c {
+    background-image: linear-gradient(to right, #243949 0%, #0c4777 100%);
+}
